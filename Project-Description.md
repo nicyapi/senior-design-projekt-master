@@ -14,7 +14,7 @@ tbd
 
 # Faculty Advisor
 
-tbd
+Niu
 
 # Project Type
 
