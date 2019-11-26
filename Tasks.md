@@ -1,27 +1,36 @@
 # Tasks
 
 ## Nick
-Research Google calendar api endpoints
 
-Set up user authentication
+Get back end running - The initial Django server should run
 
-Set up server to communicate with Google Calendar
+Google Calendar API - Ability for our backend to use Google Calendar API
 
-Set up server to communicate with front end
+Custom Users - Allow the creation of users in our DB
 
-Set up algorithm for automatically planning events with no set time
+Scheduling Algorithm - the algorithm used to schedule users’ events around other events, within their free time
 
-Create database for storing user information and event information
+Yelp Services - Add yelp reviews of businesses in which events are taking place
+
+Twitter - Ability to tweet about events
 
 ## Tim
-Design basic app frontend
 
-Allow users to view their calendar
+Rough UI - Not necessarily fleshed out.  Just bare minimum needed
 
-Allow users to create events
+Rough UX - Not necessarily fleshed out.  Just bare minimum needed
 
-Allow users to edit events
+Messaging Capabilities - Add the ability for users to message each other
 
-Allow users to delete events
+Location Services - Add location services for location events
 
-Let users share evenets with other users
+Concert Services - Add ways to automatically show nearby concerts available
+
+Facebook - Ability to post to Facebook about events
+
+## Nick and Tim
+
+API planning - Thorough planning of our API in RAML so that both of us know exactly what
+
+Hookup front end to back end - Make sure the front end and backend are communicating properly using the details from the API planning
+
