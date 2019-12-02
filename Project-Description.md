@@ -1,6 +1,6 @@
 # Team Name
 
-tbd
+Nick and Tim
 
 # Team Members:
 
@@ -10,7 +10,7 @@ tbd
 
 # Project Name
 
-tbd
+Social Media Calendar App
 
 # Faculty Advisor
 
