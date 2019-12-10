@@ -14,13 +14,13 @@
 6. Self-Assessment Essays
 7. Professional Biographies
 8. Budget
-   - expenses to date or statement that there have not been any.
-   - show monetary value of donated items and donation sources.
 9. Appendix
    - include appropriate references, citations, links to code repositories, and meeting notes.
    - there should be evidence justifying 45 hours of effort for each team member.
 
 # Project Abstract
+
+Chonko should be in powerpoint
 
 # Project Description
 
@@ -62,10 +62,53 @@ https://gitlab.com/jebidis93/cs5001/blob/master/Tasks.md
 
 ## Timeline
 
+https://gitlab.com/jebidis93/cs5001/blob/master/Timeline.docx
+
 ## Effort Matrix
+
+Chonko please upload to git
 
 # Powerpoint Link
 
 Chonko please upload to git
 
-#
+# Self Assesment Essay
+
+## Tim
+
+https://gitlab.com/jebidis93/cs5001/blob/master/walsh-assignment3.md
+
+## Chonko
+
+https://gitlab.com/jebidis93/cs5001/blob/master/chonko_assignment_3.docx
+
+# Professional Biographies
+
+## Tim
+
+https://gitlab.com/jebidis93/cs5001/blob/master/Walsh_Biography.md
+
+## Nick
+
+https://gitlab.com/jebidis93/cs5001/blob/master/Chonko_Biography.md
+
+# Budget
+
+We have yet to spend any money yet, however we are aware that we will need an apple developer liscense ($100) which is used to get our app on the apple store. Additionally we will be cloud hosting a server on either AWS or azure which will cost some money (~$50-\$75 depending on how long we host it).
+
+# Apendix
+
+## Tim
+
+- repo: https://gitlab.com/walshts97/react-native-social-calendar/edit#js-shared-permissions
+  (this is unstable at the time this file was made)
+
+- Researched Libraries
+
+  - react native calendars
+    https://github.com/wix/react-native-calendars
+
+  - Google Calendar Api
+    https://developers.google.com/calendar/
+
+  - OAuth Authentication
