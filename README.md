@@ -100,6 +100,8 @@ We have yet to spend any money yet, however we are aware that we will need an ap
 
 ## Tim
 
+- spread sheet: https://gitlab.com/jebidis93/cs5001/blob/master/Tim%20Work%20log.xlsx
+
 - repo: https://gitlab.com/walshts97/react-native-social-calendar/edit#js-shared-permissions
   (this is unstable at the time this file was made)
 
