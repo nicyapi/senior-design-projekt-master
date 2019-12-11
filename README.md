@@ -1,9 +1,7 @@
-[[_TOC_]]
-
 # Table Of Contents
 
-1. [Project Abstract](#Project_Abstract)
-2. [Project Description](#Project-Description)
+1. [Project Abstract](#project-abstract)
+2. [Project Description](#project-description)
 3. User Stories and Design Diagrams
    - User Stories
    - Design Diagrams
