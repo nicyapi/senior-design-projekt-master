@@ -162,6 +162,7 @@ Cloud server - $50+
    - [React native calendars](https://github.com/wix/react-native-calendars)
    - [Google Calendar API](https://developers.google.com/calendar)
    - OAuth Authentication
+- [Time worked](https://gitlab.com/jebidis93/cs5001/blob/master/Tim%20Work%20log.xlsx)
 
 #### Nick
 
