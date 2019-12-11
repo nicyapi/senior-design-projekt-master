@@ -2,10 +2,10 @@
 
 1. [Project Abstract](#project-abstract)
 2. [Project Description](#project-description)
-3. User Stories and Design Diagrams
-   - User Stories
-   - Design Diagrams
-   - Description of the Diagrams
+3. [User Stories and Design Diagrams](#user-stories-and-design-diagrams)
+   - [User Stories](#user-stories)
+   - [Design Diagrams](#design-diagrams)
+   - [Descriptions of Diagrams](#descriptions-of-diagrams)
 4. Project Tasks and Timeline
    - Task List
    - Timeline
@@ -26,7 +26,7 @@ Chonko should be in powerpoint
 
 The goal of our application is for a user to be able to put scheduled events into a calendar as well as times when they would like to do social activities. The user then can add tasks that need to be completed during daily life and the user’s tasks will be added to the calendar during available time slots. Finally, the social aspect is that the user will be recommended things to do during their social times, such as concerts, restaurant deals, and fitness classes. In addition, the user will be able to add friends and recommend that they participate in activities with them.
 
-# User Stories and Diagrams
+# User Stories and Design Diagrams
 
 ## User Stories
 
