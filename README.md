@@ -1,7 +1,7 @@
 # Table Of Contents
 
-1. [Project Abstract]()
-2. [Project Description](#Project Description)
+1. [Project Abstract](#Project_Abstract)
+2. [Project Description](#Project-Description)
 3. User Stories and Design Diagrams
    - User Stories
    - Design Diagrams
