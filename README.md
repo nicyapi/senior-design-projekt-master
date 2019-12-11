@@ -1,5 +1,7 @@
 # Social Media Calendar App
 
+__For a better version of this report, see [the wiki](https://gitlab.com/jebidis93/cs5001/wikis/home)__
+
  - [Project Abstract](#project-abstract)
  - [Project Description](#project-description)
  - [User Stories and Design Diagrams](#user-stories-and-design-diagrams)
