@@ -5,7 +5,8 @@ everything we write.  We have installed `pytest` as our testing framework. The
 backend uses a test database that is used when tests are run and all artifacts
 from testing are completely removed between every test.
 
-_`Tim Add whatever you want here`_
+In the frontend, our plan is to test core UI/UX functionality. This will mean 
+simple front end navigation tests as well as in-def end to end test for getting results from the back end.
 
 # Test Case Descriptions
 
@@ -145,8 +146,38 @@ ES6.8 Functional
 
 ES6.9 Unit
 
+# FE1
+FE1.1 Front End Navigation test 
 
+FE1.2 This test will assure that the main navigation of the front end is working
 
+FE1.3 Select each page and ensure navigation occurs properly
+
+# FE2
+FE2.1 Front End Menu Navigation test 
+
+FE2.2 This test will assure that the menu navigation of the front end is working
+
+FE2.3 Select the menu and access account settings page
+
+# FE3
+FE3.1 Front End Calendar test 
+
+FE3.2 This test will assure that the calendar view is working properly (this will probably get sub divided later)
+
+FE3.3 Scroll up and down on day view, select new day and see all events of that day, select new month, select new week, open an event and see data propegate
+
+# FE4
+FE4.1 Front End Event Finder test 
+
+FE4.2 This test will assure that the event view works properly
+
+FE4.3 open a category, open a event, validate fields propegate
+
+# E2E1
+E2E1.1 End to End test retrieving calendar data from back end
+
+E2E1.2 This test will assure that the front end can call the backend and render data properly
 
 # Test Case Matrix
 
