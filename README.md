@@ -63,23 +63,6 @@ _See [this link](https://gitlab.com/jebidis93/cs5001/blob/master/InitialUserStor
 ### Design Diagrams
 _See [this link](https://gitlab.com/jebidis93/cs5001/tree/master/diagrams) to go to the directory_
 
-![D0](uploads/97f223435d7b1cd384494d45a1856abf/D0.PNG)
-
-D0: The basic concept for how the application will function
-
-![D1](uploads/eaf05f68d1c45e44c3c824f3ad311059/D1.PNG)
-
-D1: A more descriptive diagram of a user logging into the app
-
-![D2](uploads/647323594a71411b2c4b8a7980a4e000/D2.PNG)
-
-D2: Full diagram of login, and using the calendar
-
-![wireframe](uploads/0667f73b1d2cfe9ec9d12448bb9aeaf4/wireframe.png)
-
-
-Wireframe: A wireframe of the basic idea for the front end
-
 ## Project Tasks and Timeline
 
 ### Task List
@@ -122,19 +105,13 @@ _See [this link](https://gitlab.com/jebidis93/cs5001/blob/master/Tasks.md) to go
 ### Milestones
 _See [this link](https://gitlab.com/jebidis93/cs5001/blob/master/milestones.PNG) to go to the file_
 
-![milestones](uploads/0e180cd57ede818283756036c8fee9b9/milestones.PNG)
-
 ### Timeline
 _See [this link](https://gitlab.com/jebidis93/cs5001/blob/master/timeline.PNG) to go to the file_
-
-![timeline](uploads/47132a6ca69cbbf552a4ddde6840081e/timeline.PNG)
 
 We tried to plan out the remainder of Fall semester and the entire Spring semester in approximately 2 week increments.  No dates are permanent, but rather guidelines to keep us on track. 
 
 ### Effort Matrix
 _See [this link](https://gitlab.com/jebidis93/cs5001/blob/master/effort-matrix.PNG) to go to the file_
-
-![effort-matrix](uploads/9c441a867bd93bd48c770e4c4363c4e4/effort-matrix.PNG)
 
 ## PPT Slideshow
 _See [this link](https://gitlab.com/jebidis93/cs5001/blob/master/final-presentation.pptx) to go to the file_
