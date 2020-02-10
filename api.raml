@@ -1,0 +1,386 @@
+#%RAML 1.0
+title: Senior Design API
+version: v1
+
+# types declaration
+types:
+  User:
+    type: object
+    properties:
+      username: string
+      name?: string
+      email?: string
+      id?: integer
+  CategoryCreate:
+    type: object
+    properties:
+      name: string
+  Category:
+    type: CategoryCreate
+    properties:
+      id: integer
+      activities: integer[]
+  ActivityCreate:
+    type: object
+    properties:
+      name: string
+      location?: nil
+      category:
+        type: integer
+        description: The id of the category for which the activity belongs
+  Activity:
+    type: ActivityCreate
+    properties:
+      id: integer
+      events: integer[]
+      user: integer
+  EventCreate:
+    type: object
+    displayName: Event
+    properties:
+      title: string
+      summary?: string
+      start: datetime
+      end: datetime
+      location?: nil
+      activity?:
+        type: integer | nil
+        description: The id of the category for which the activity belongs
+  Event:
+    type: EventCreate
+    properties:
+      id: integer
+      user: integer
+
+# traits declaration
+traits:
+  unauthorizedUserResponse:
+    responses:
+      401:
+        description: The user is not signed in
+        body: application/json
+  forbiddenUserResponse:
+    responses:
+      403:
+        description: "The user is signed in, but trying to access another user's content"
+        body: application/json
+  nonAdminUserResponse:
+    responses:
+      403:
+        description: The user is signed in, but do not have admin privileges
+        body: application/json
+
+# api declaration
+/api:
+  
+  # categories
+  /categories:
+    is: [unauthorizedUserResponse]
+    get:
+      queryParameters:
+        search?:
+          description: |
+                       Filters the list of categories based on the string
+                       provided.  Not sure the exact way this search will
+                       work, however.
+          type: string
+      description: Get the list of all categories
+      responses:
+        200:
+          description: Successfully retrieved event list
+          body:
+            application/json:
+              type: Category[]
+              example:
+                - "id": 1
+                  "name": "Bars"
+                  "activities":
+                    - 1
+                    - 2
+                    - 3
+                - "id": 2
+                  "name": "School"
+                  "activities":
+                    - 4
+                    - 5
+    post:
+      description: Add a category to the list of categories
+      is: [nonAdminUserResponse]
+      body:
+        application/json:
+          type: CategoryCreate
+          example:
+            "name": "Bars"
+      responses:
+        201:
+          description: Successfully created new category
+          body: application/json
+    /{id}:
+      is: [unauthorizedUserResponse]
+      get:
+        description: "Get the category of id: **id**"
+        responses:
+          200:
+            description: Successfully retrieved category
+            body:
+              application/json:
+                type: Category
+                example: 
+                  "id": 1
+                  "name": "Bars"
+                  "activities":
+                    - 1
+                    - 2
+                    - 3
+      patch:
+        description: "Update the category of id: **id**"
+        is: [nonAdminUserResponse]
+        body:
+          application/json:
+            type: Category
+            example: 
+              "name": "Bars"
+        responses:
+          200:
+            description: Successfully updated category
+            body: application/json
+      delete:
+        description: "Delete the category of id: **id**"
+        is: [nonAdminUserResponse]
+        responses:
+          204:
+            description: Successfully updated category
+            body: application/json
+
+  # activites
+  /activities:
+    is: [unauthorizedUserResponse]
+    description: Get the list of all activities
+    get:
+      description: Get the list of all activities
+      queryParameters:
+        categoryId?:
+          description: |
+                       "Filters the list of activities and returns all the activities
+                       belonging to category of id: **categoryId**"
+          type: integer
+        search?:
+          description: |
+                       Filters the list of activities based on the string
+                       provided.  Not sure the exact way this search will
+                       work, however.
+          type: string
+      responses:
+        200:
+          description: Successfully retrieved activity list
+          body:
+            application/json:
+              type: Activity[]
+              example:
+                - "id": 1
+                  "name": "Woody's"
+                  "location": "No idea what to do with this yet lol"
+                  "events":
+                    - 1
+                    - 2
+                    - 3
+                  "category": 1
+                  "user": 1
+                - "id": 2
+                  "name": "Murphy's"
+                  "location": "No idea what to do with this yet lol"
+                  "events":
+                    - 4
+                    - 5
+                  "category": 1
+                  "user": 1
+    post:
+      description: Add an activity to the list of activities
+      body:
+        application/json:
+          type: ActivityCreate
+          example:
+            "name": "Woody's"
+            "location": "No idea what to do with this yet lol"
+            "category": 1
+      responses:
+        201:
+          description: Successfully created new activity
+          body: application/json
+    /{id}:
+      is: [unauthorizedUserResponse]
+      get:
+        description: "Get the activity of id: **id**"
+        responses:
+          200:
+            description: Successfully retrieved activity
+            body:
+              application/json:
+                type: Activity
+                example: 
+                  "id": 1
+                  "name": "Woody's"
+                  "location": "No idea what to do with this yet lol"
+                  "events":
+                    - 1
+                    - 2
+                    - 3
+                  "category": 1
+                  "user": 1
+      patch:
+        description: "Update the activity of id: **id**"
+        is: [forbiddenUserResponse]
+        body:
+          application/json:
+            examples:
+              first:
+                "name": "Woody's"
+              second:
+                "name": "Woody's"
+                "category": 2
+        responses:
+          200:
+            description: Successfully updated activity
+            body: application/json
+      delete:
+        description: "Delete the activity of id: **id**"
+        is: [forbiddenUserResponse]
+        responses:
+          204:
+            description: Successfully updated activity
+            body: application/json
+
+  # events
+  /events:
+    is: [unauthorizedUserResponse]
+    get:
+      description: Get all events of current user
+      queryParameters:
+        day:
+          description: |
+                       Filters the list of events and returns all the events from 30 days
+                       before, and after the provided date.  If not provided, defaults to
+                       the current day.
+          type: datetime | date
+        activityId:
+          description: |
+                       "Filters the list of events and returns all the events
+                       belonging to activity of id: **activityId**"
+          type: integer
+      responses:
+        200:
+          description: Successfully retrieved event list
+          body:
+            application/json:
+              type: Event[]
+              example:
+                - "title": "Work on Homework"
+                  "summary": "Boo homework"
+                  "start": "2020-02-11T09:30:00.000000Z"
+                  "end": "2020-02-11T07:00:00.000000Z"
+                  "location": "????????????????"
+                  "id": 1
+                  "user": 1
+                  "activity": 1
+                - "title": "Class"
+                  "summary": ""
+                  "start": "2020-02-11T09:30:00.000000Z"
+                  "end": "2020-02-11T07:00:00.000000Z"
+                  "location": "????????????????"
+                  "id": 2
+                  "user": 1
+                  "activity": Null
+    post:
+      description: Add an event to the user's list of events
+      body:
+        application/json:
+          type: EventCreate
+          examples:
+            first:
+              "title": "Party"
+              "start": "2020-02-11T09:30:00.000000Z"
+              "end": "2020-02-11T011:30:00.000000Z"
+            second:
+              "title": "Party"
+              "summary": "This is the description"
+              "start": "2020-02-11T09:30:00.000000Z"
+              "end": "2020-02-11T011:30:00.000000Z"
+              "activity": 2
+      responses:
+        201:
+          description: Successfully created new event
+          body: application/json
+    /{id}:
+      is: [unauthorizedUserResponse, forbiddenUserResponse]
+      get:
+        description: "Retrieve the event of id: **id**"
+        responses:
+          200:
+            description: Successfully retrieved event
+            body:
+              application/json:
+                type: Event
+                example:
+                  "title": "Work on Homework"
+                  "summary": "Boo homework"
+                  "start": "2020-02-11T09:30:00.000000Z"
+                  "end": "2020-02-11T07:00:00.000000Z"
+                  "location": "????????????????"
+                  "id": 1
+                  "user": 1
+                  "activity": 1
+      patch:
+        description: "Update the event of id: **id**"
+        body:
+          application/json:
+            examples:
+              first:
+                "title": "Birthday Party"
+              second:
+                "name": "Birthday Party"
+                "summary": "Yay"
+        responses:
+          200:
+            description: Successfully updated event
+            body:
+              application/json:
+                type: Event
+      delete:
+        description: "Delete the event of id: **id**"
+        responses:
+          204:
+            description: Successfully deleted event
+/auth:
+  /me:
+    is: [unauthorizedUserResponse]
+    get:
+      description: Get the current signed in user
+      responses:
+        200:
+          description: Successfully retrieved current signed in user
+          body:
+            application/json:
+              type: User
+    patch:
+      description: Update current signed in user information
+      responses:
+        200:
+          description: Successfully updated current signed in user information
+          body:
+            application/json:
+              type: User
+  /login:
+    post:
+      responses:
+        303:
+          description: Login successful/Already logged in. Redirect to /api/home
+          headers:
+            Location: /api/home
+        401:
+          description: Login failed
+  /logout:
+    is: [unauthorizedUserResponse]
+    post:
+      responses:
+        200:
+          description: Logout successful
