@@ -46,6 +46,7 @@ results from the back end.
 
 # User Manual
 *See the full manual [here](https://gitlab.com/jebidis93/senior-design-planning/-/wikis/home)*
+![User Docs](screens/User%20docs%20screenshot.jpg)
 
 # Spring Final PPT Presentation
 *See the full presentation [here](https://gitlab.com/jebidis93/senior-design-planning/-/blob/master/ASSN_3.pptx)*
