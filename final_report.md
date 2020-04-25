@@ -1,5 +1,14 @@
 # Table of Contents
-Add later
+ - [Project Description](#project-description)
+ - [User Interface Specification](#user-interface-specification)
+ - [Test Plan and Results](#test-plan-and-results)
+ - [User Manual](#user-manual)
+ - [Spring Final PPT Presentation](#spring-final-ppt-presentation)
+ - [Final Expo Poster](#final-expo-poster)
+ - [Assessments](#assessments)
+    - [Fall Self-Assessments](#fall-self-assessments)
+    - [Spring Self-Assessments](#spring-self-assessments)
+ - [Summary of Hours](#summary-of-hours)
 
 # Project Description
 The goal of our application is for a user to be able to put scheduled events
