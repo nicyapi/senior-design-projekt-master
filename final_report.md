@@ -24,11 +24,11 @@ participate in activities with them.
 # User Interface Specification
 The application is laid out with a simplistic 3 tab design, within these 3 tabs a user is able to use most of the applications functionality. 2 additional menu screens exist so the user is able to alter account and application settings, however at this time the these menus are not fully built out. Within each tab multiple screens exist on a stack to allow users to easily navigate throughout specific functionalities of the application.
 
-![Calendar](https://gitlab.com/jebidis93/senior-design-planning/-/blob/master/screens/Final%20Calendar%20Screen.jpg)
+![Calendar](Final%20Calendar%20Screen.jpg)
 
-![Discover](https://gitlab.com/jebidis93/senior-design-planning/-/blob/master/screens/Final%20Discover%20Screen.jpg)
+![Discover](Final%20Discover%20Screen.jpg)
 
-![Message](https://gitlab.com/jebidis93/senior-design-planning/-/blob/master/screens/Message%20Screen.jpg)
+![Message](Message%20Screen.jpg)
 # Test Plan and Results
 *See the full test plan file [here](https://gitlab.com/jebidis93/senior-design-planning/-/blob/master/ASSN_3.pptx)*
 In the backend, our main testing strategy is to make unit tests for almost
