@@ -187,7 +187,7 @@ features that I wanted.
 ## Nick
 ## Tim
 | Task |	Description | Hours |
-|---|---|---|---|
+|---|---|:---|
 |Render Screens for assignments|	This task is for the time spent rendering dummy screens to be used in assignments. This includes highlighting features for the purpose of the assignment|	8|
 |User Manual	|For this assignment I had to create a wiki on how the application works|	7
 |Final Poster	|My part in the writing, editing and design	|4|
