@@ -198,11 +198,49 @@ worked better, however this took a lot of time and lead to me not finishing some
 features that I wanted.
 
 
-# Summary of Hours and Justification
+# Summary of Hours
+
 ## Nick
-## Tim
+
+### First Semester
+
+### Second Semester
+| Task |	Description | Hours |
+|---|---|---|
+|Planning API|Planning out the future API|2|
+|Writing RAML|Writing the RAML file that Tim and I would use|3.5|
+|Google Calendar|Attempting to get Google Calendar working with our project.  We decided that this would not work and that we would have to make our calendar manually|5|
+|Creating Events Model and API Routes|Make the main model for our calendar, for a user's events|1.5|
+|Creating Activities Model and API Routes|Activities are, for example, a concert venue, that would hold multiple events|1.5|
+|Creating Categories Model and API Routes|Categories are for example, bars, that hold many different bars as activities|1.5|
+|Initial automatic event scheduler|First attempt at automatic event scheduling|6|
+|Testing API Routes|Writing tests for API routes|3|
+|Researching pytest parameterize|pytest has a feature called parameterize that allows tests to be re-ran with different inputs|2|
+|Refactoring Tests|refactor tests so that they use parameterize whenever possible|3|
+|Testing automatic event scheduler|Writing tests for the auto event scheduler|3|
+|Refactoring automatic event scheduler|Refactor the automatic event scheduler so that the code was more readable|2|
+|More functionality to the automatic event scheduler|Added more functionality to the automatic event scheduler|5|
+|Testing new automatic event scheduler|Writing tests for the auto event scheduler|3|
+|Refactoring automatic event scheduler|Refactor the automatic event scheduler so that the code was more readable after adding new functionality|2|
+|Assignment 1|Doing assignment 1|1.5|
+|Assignment 3|Doing assignment 3|1.5|
+|Assignment 4|Doing assignment 4|2|
+|Assignment 5|Doing assignment 5|4|
+|Assignment 7|Doing assignment 7|2|
+
 ### Justification of Hours
-Nick and split the work on the documentation assignments as best we could in order to give each other as much development time as possible, but one of my major time consumers was rendering mock up screens for assignments in order to provide more clarity to what we were writing. Other than that I spent a lot of time researching and developing the front end. I am not traditionally a front end developer so things took me a lot of time and I did a lot of learning in this area.
+
+## Tim
+
+### Justification of Hours
+Nick and split the work on the documentation assignments as best we could in
+order to give each other as much development time as possible, but one of my
+major time consumers was rendering mock up screens for assignments in order to
+provide more clarity to what we were writing. Other than that I spent a lot of
+time researching and developing the front end. I am not traditionally a front
+end developer so things took me a lot of time and I did a lot of learning in
+this area.
+
 ### Second Semester
 | Task |	Description | Hours |
 |---|---|:---|
