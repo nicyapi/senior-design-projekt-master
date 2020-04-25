@@ -42,6 +42,8 @@ results from the back end.
 
 # Final Expo Poster
 *See the final poster [here](https://gitlab.com/jebidis93/senior-design-planning/-/blob/master/Poster_Final.pdf)*
+![alt text](https://gitlab.com/jebidis93/senior-design-planning/-/blob/master/final_poster_image.png)
+
 
 # Assessments
 
