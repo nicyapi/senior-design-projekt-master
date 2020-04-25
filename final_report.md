@@ -11,15 +11,24 @@
  - [Summary of Hours](#summary-of-hours)
 
 # Project Description
-The goal of our application is for a user to be able to put scheduled events
-into a calendar as well as times when they would like to do social activities.
-The user then can add tasks that need to be completed during daily life and the
-user’s tasks will be added to the calendar during available time slots. Finally,
-the social aspect is that the user will be recommended things to do during their
-social times, such as concerts, restaurant deals, and fitness classes. In
-addition, the user will be able to add friends and recommend that they
-participate in activities with them.
-
+SoCalendar is a social
+media application based
+on a user’s schedule. A
+user inputs his or her
+scheduled events and/or
+tasks. SoCalendar
+provides the user an
+interface to discover fun
+activities and add them
+to his or her schedule.
+The user can chat with
+friends within the
+application to easily
+make plans. SoCalendar
+will then schedule the
+user’s upcoming tasks
+freeing the user’s
+valuable time.
 
 # User Interface Specification
 The application is laid out with a simplistic 3 tab design, within these 3 tabs a user is able to use most of the applications functionality. 2 additional menu screens exist so the user is able to alter account and application settings, however at this time the these menus are not fully built out. Within each tab multiple screens exist on a stack to allow users to easily navigate throughout specific functionalities of the application.
@@ -187,16 +196,27 @@ features that I wanted.
 # Summary of Hours and Justification
 ## Nick
 ## Tim
+### Justification of Hours
+Nick and split the work on the documentation assignments as best we could in order to give each other as much development time as possible, but one of my major time consumers was rendering mock up screens for assignments in order to provide more clarity to what we were writing. Other than that I spent a lot of time researching and developing the front end. I am not traditionally a front end developer so things took me a lot of time and I did a lot of learning in this area.
+### Second Semester
 | Task |	Description | Hours |
 |---|---|:---|
-|Render Screens for assignments|	This task is for the time spent rendering dummy screens to be used in assignments. This includes highlighting features for the purpose of the assignment|	8|
-|User Manual	|For this assignment I had to create a wiki on how the application works|	7
+|Render Screens for assignments|	This task is for the time spent rendering dummy screens to be used in assignments. This includes highlighting features for the purpose of the assignment|	5|
+|User Manual	|For this assignment I had to create a wiki on how the application works|	3
 |Final Poster	|My part in the writing, editing and design	|4|
 |Front End Video	|I created a ~10 minute video about the front end for the expo|	1|
-|Other assignments	|Assignments that are not listed|	5|
+|Other assignments	|Assignments that are not listed|	3|
 Develop Calendar Screens	|This task represents developing the looks and functionality for the screens withing the Calendar Tab of the application	|7|
 Develop Discover Screens|	This task represents developing the looks and functionality for the screens withing the Discover Tab of the application|	10
 Develop Message Screens	|This task represents developing the looks and functionality for the screens withing the Message Tab of the application	|4
 Application Navigation	|As stated in my final assessment I wish I had done this first, it was hard to do in the first place and even harder to intigrate after the fact|	8
 Login/Signup screens	|We had a bunch of issues at the end of the project with our authorization protocols and these were quite difficult to get working|	7
 Connect To Back End	|I was unable to install docker for windows on my machine and had several problems getting docker toolbox running, which was necessary to connect the application	|5
+
+### First Semester 
+|Task	|Description|	Hours|
+|---|---|:--|
+Rough UI|	Created initial 3 screens for the application with rough layout|	15
+Rough UX|	Created controls and routing between the 3 initial screens	|10
+Research	|Researched apis and authentication|10
+Various assignments|	Class required assignments	|10
