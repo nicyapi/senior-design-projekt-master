@@ -153,12 +153,36 @@ FE1.2 This test will assure that the main navigation of the front end is working
 
 FE1.3 Select each page and ensure navigation occurs properly
 
+FE1.4 The input will be user touches
+
+FE1.5 The output will be that the proper screen is rendered
+
+FE1.6 Normal
+
+FE1.7 Whitebox
+
+FE1.8 Functional
+
+FE1.9 Unit
+
 # FE2
 FE2.1 Front End Menu Navigation test 
 
 FE2.2 This test will assure that the menu navigation of the front end is working
 
 FE2.3 Select the menu and access account settings page
+
+FE2.4 The input will be user touches
+
+FE2.5 The output will be that the proper screen is rendered
+
+FE2.6 Normal
+
+FE2.7 Whitebox
+
+FE2.8 Functional
+
+FE2.9 Unit
 
 # FE3
 FE3.1 Front End Calendar test 
@@ -167,6 +191,18 @@ FE3.2 This test will assure that the calendar view is working properly (this wil
 
 FE3.3 Scroll up and down on day view, select new day and see all events of that day, select new month, select new week, open an event and see data propegate
 
+FE3.4 The input will be user touches
+
+FE3.5 The output will be that the proper screen is rendered
+
+FE3.6 Normal
+
+FE3.7 Whitebox
+
+FE3.8 Functional
+
+FE3.9 Unit
+
 # FE4
 FE4.1 Front End Event Finder test 
 
@@ -174,10 +210,18 @@ FE4.2 This test will assure that the event view works properly
 
 FE4.3 open a category, open a event, validate fields propegate
 
-# E2E1
-E2E1.1 End to End test retrieving calendar data from back end
+FE4.4 The input will be user touches
 
-E2E1.2 This test will assure that the front end can call the backend and render data properly
+FE4.5 The output will be that the proper screen is rendered
+
+FE4.6 Normal
+
+FE4.7 Whitebox
+
+FE4.8 Functional
+
+FE4.9 Unit
+
 
 # Test Case Matrix
 
@@ -189,9 +233,7 @@ E2E1.2 This test will assure that the front end can call the backend and render 
 | ES4  |                    B                    |              W            |              F                 |             U            |
 | ES5  |                    B                    |              W            |              F                 |             U            |
 | ES6  |                    N                    |              W            |              F                 |             U            |
-|      |                                         |                           |                                |                          |
-|      |                                         |                           |                                |                          |
-|      |                                         |                           |                                |                          |
-|      |                                         |                           |                                |                          |
-|      |                                         |                           |                                |                          |
-|      |                                         |                           |                                |                          |
+|  FE1    |   N|W                                      |      F                                                     |       U                   |
+|  FE2    | N|W                                         |     F                                                      |       U                   |
+|  FE3    |N|W                                         |     F                                                      |        U                  |
+|  FE4    |N|W                                         |      F                     |                U                |                          |
