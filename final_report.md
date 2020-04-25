@@ -186,3 +186,16 @@ features that I wanted.
 # Summary of Hours and Justification
 ## Nick
 ## Tim
+| Task |	Description | Hours |
+|---|---|---|---|
+|Render Screens for assignments|	This task is for the time spent rendering dummy screens to be used in assignments. This includes highlighting features for the purpose of the assignment|	8|
+|User Manual	|For this assignment I had to create a wiki on how the application works|	7
+|Final Poster	|My part in the writing, editing and design	|4|
+|Front End Video	|I created a ~10 minute video about the front end for the expo|	1|
+|Other assignments	|Assignments that are not listed|	5|
+Develop Calendar Screens	|This task represents developing the looks and functionality for the screens withing the Calendar Tab of the application	|7|
+Develop Discover Screens|	This task represents developing the looks and functionality for the screens withing the Discover Tab of the application|	10
+Develop Message Screens	|This task represents developing the looks and functionality for the screens withing the Message Tab of the application	|4
+Application Navigation	|As stated in my final assessment I wish I had done this first, it was hard to do in the first place and even harder to intigrate after the fact|	8
+Login/Signup screens	|We had a bunch of issues at the end of the project with our authorization protocols and these were quite difficult to get working|	7
+Connect To Back End	|I was unable to install docker for windows on my machine and had several problems getting docker toolbox running, which was necessary to connect the application	|5
