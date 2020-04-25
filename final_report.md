@@ -204,6 +204,36 @@ features that I wanted.
 
 ### First Semester
 
+|Task|Hours|
+|---|---|
+|User stories|0.5|
+|Design Diagrams (discussing)|0.5|
+|Design Diagrams (documenting)|1.5|
+|Initial Task List|0.5|
+|Discussing Milestones, Timeline, and Effort Matrix|3|
+|Documenting Milestones|0.25|
+|Documenting Timeline|0.25|
+|Documenting Effort Matrix|0.25|
+|Making Slideshow Presentation|2|
+|Recording and editing slideshow presentation video|1.5|
+|Writing final design Report for Fall|2.5|
+|Reseach Google Calendar API|1.5|
+|Reseach Django|1.5|
+|Research Docker|1.5|
+|Initial Setup of backend (django, docker, postgres)|10|
+|research using postgres with celery|0.5|
+|Setup redis for celery|1|
+|Implement celery (this was confusing)|3|
+|Manually testing celery|1|
+|Set up flower (for use with celery)|2|
+|setup celery Beat|2|
+|setup flake8|0.5|
+|setup pytest|1|
+|Research RAML|1|
+|Modify Dockerfiles|1|
+|Test custom Django models|1|
+|research django rest framework|1.5|
+
 ### Second Semester
 | Task |	Description | Hours |
 |---|---|---|
@@ -229,17 +259,15 @@ features that I wanted.
 |Assignment 7|Doing assignment 7|2|
 
 ### Justification of Hours
+For Fall semester, I had 47 total hours, and for Spring semester, I had 55
+hours.  In total between the two semesters, I had 102 hours.  Most of my first
+semester time was spent researching the tools we might potentially use in the
+project.  My second semester time was almost exclusively spent writing back end
+code.  When I was writing the back end code, most of my time was spent towards
+the automatic event scheduling, because that was the original reason we wanted
+to make this application.  That is why I spent so long working on it.
 
 ## Tim
-
-### Justification of Hours
-Nick and split the work on the documentation assignments as best we could in
-order to give each other as much development time as possible, but one of my
-major time consumers was rendering mock up screens for assignments in order to
-provide more clarity to what we were writing. Other than that I spent a lot of
-time researching and developing the front end. I am not traditionally a front
-end developer so things took me a lot of time and I did a lot of learning in
-this area.
 
 ### Second Semester
 | Task |	Description | Hours |
@@ -263,3 +291,12 @@ Rough UI|	Created initial 3 screens for the application with rough layout|	15
 Rough UX|	Created controls and routing between the 3 initial screens	|10
 Research	|Researched apis and authentication|10
 Various assignments|	Class required assignments	|10
+
+### Justification of Hours
+Nick and split the work on the documentation assignments as best we could in
+order to give each other as much development time as possible, but one of my
+major time consumers was rendering mock up screens for assignments in order to
+provide more clarity to what we were writing. Other than that I spent a lot of
+time researching and developing the front end. I am not traditionally a front
+end developer so things took me a lot of time and I did a lot of learning in
+this area.
