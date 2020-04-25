@@ -49,6 +49,54 @@ results from the back end.
 
 ## Fall Self-Assessments
 ### Nick
+Our Senior Design project is a social media application.  Our main focus at the
+moment is on event scheduling.  One of the main drives behind this project is
+that we want a way to have adaptive scheduling for certain events.  For
+instance, if I have a homework assignment due in a week, the application would
+be able to automatically allot times throughout the week around events that
+cannot change, such as class meeting times.  These events could also be given
+priority over other similar events, such as due dates.  We also want users to be
+able coordinate these events to fit each of their time needs.
+
+Some classes here at UC will help me to complete this project.  CS4092, or
+Database Design, and CS 5151, or Database theory should help me with some of my
+backend design.  Last semester of school I took EECE3093C, or Software
+Engineering.  This class helped me to learn some of the software engineering
+process and will definitely help with the project overall.  I am currently
+enrolled in CS 5127, or Requirements Engineering.  While the class has only just
+begun, it is already helping me to understand how to quantify stakeholder’s
+needs.
+
+My co-ops will also help me in our Senior Design project.  I worked at Tenet 3
+in Dayton Ohio for all of my co-op rotations.  My title was intern for all
+rotations.  Most of my experience was with back-end work, but I do have some
+front-end experience.  Because I am probably going to do most of our project’s
+backend, this should help me quite a bit.  Another skill that I have developed
+from co-op is good planning.  Once I was able to see the proper direction that
+our work projects were heading, I was able to assist in planning for the future
+of the projects consistently.
+
+One of the reasons that I am excited for this project, is that me and my group
+have had some of the main ideas for the project in our minds since sophomore
+year.  Namely, the automatic scheduling portion of the project.  Our main
+approach to the project, firstly, is going to be getting a baseline application
+working.  Then we will proceed with the calendar functionality. Next we will get
+some more social media functionality.  Throughout most of the process, we hope
+to have some users involved for both test data, as well as feedback.  This of
+course, is only a rough outline of our approach as user feedback and bumps along
+the way could change our course.
+
+The expected results are a working application, with the scheduling capabilities
+described above, and in our project description.  We also want the users to be
+able to sync their calendars and schedule events together.  Finally, we hope to 
+be able to make changes that our test users suggest throughout their time
+testing out the application – whatever their feedback might be.  I think that I
+will feel we are “done” when we can meet all the functionality that our group
+wants to accomplish.  However, I put “done” in quotes because user feedback
+might mean we are never truly finished, as there may always be user requested
+functionality that we do not yet have.  Similarly, I think that we will know if
+we have done a good job based on test user feedback.
+
 
 ### Tim
 For our senior design project, we are making a self-scheduling calendar. This
