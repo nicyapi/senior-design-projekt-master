@@ -11,35 +11,30 @@
  - [Summary of Hours](#summary-of-hours)
 
 # Project Description
-SoCalendar is a social
-media application based
-on a user’s schedule. A
-user inputs his or her
-scheduled events and/or
-tasks. SoCalendar
-provides the user an
-interface to discover fun
-activities and add them
-to his or her schedule.
-The user can chat with
-friends within the
-application to easily
-make plans. SoCalendar
-will then schedule the
-user’s upcoming tasks
-freeing the user’s
+SoCalendar is a social media application based on a user’s schedule. A user
+inputs his or her scheduled events and/or tasks. SoCalendar provides the user an
+interface to discover fun activities and add them to his or her schedule. The
+user can chat with friends within the application to easily make plans.
+SoCalendar will then schedule the user’s upcoming tasks freeing the user’s
 valuable time.
 
 # User Interface Specification
-The application is laid out with a simplistic 3 tab design, within these 3 tabs a user is able to use most of the applications functionality. 2 additional menu screens exist so the user is able to alter account and application settings, however at this time the these menus are not fully built out. Within each tab multiple screens exist on a stack to allow users to easily navigate throughout specific functionalities of the application.
+The application is laid out with a simplistic 3 tab design, within these 3 tabs
+a user is able to use most of the applications functionality. 2 additional menu
+screens exist so the user is able to alter account and application settings,
+however at this time the these menus are not fully built out. Within each tab
+multiple screens exist on a stack to allow users to easily navigate throughout
+specific functionalities of the application.
 
 ![Calendar](screens/Final%20Calendar%20Screen.jpg)
 
 ![Discover](screens/Final%20Discover%20Screen.jpg)
 
 ![Message](screens/Message%20Screen.jpg)
+
 # Test Plan and Results
 *See the full test plan file [here](https://gitlab.com/jebidis93/senior-design-planning/-/blob/master/ASSN_3.pptx)*
+
 In the backend, our main testing strategy is to make unit tests for almost
 everything we write. We have installed pytest as our testing framework. The
 backend uses a test database that is used when tests are run and all artifacts
@@ -198,11 +193,77 @@ worked better, however this took a lot of time and lead to me not finishing some
 features that I wanted.
 
 
-# Summary of Hours and Justification
+# Summary of Hours
+
 ## Nick
-## Tim
+
+### First Semester
+
+|Task|Hours|
+|---|---|
+|User stories|0.5|
+|Design Diagrams (discussing)|0.5|
+|Design Diagrams (documenting)|1.5|
+|Initial Task List|0.5|
+|Discussing Milestones, Timeline, and Effort Matrix|3|
+|Documenting Milestones|0.25|
+|Documenting Timeline|0.25|
+|Documenting Effort Matrix|0.25|
+|Making Slideshow Presentation|2|
+|Recording and editing slideshow presentation video|1.5|
+|Writing final design Report for Fall|2.5|
+|Reseach Google Calendar API|1.5|
+|Reseach Django|1.5|
+|Research Docker|1.5|
+|Initial Setup of backend (django, docker, postgres)|10|
+|research using postgres with celery|0.5|
+|Setup redis for celery|1|
+|Implement celery (this was confusing)|3|
+|Manually testing celery|1|
+|Set up flower (for use with celery)|2|
+|setup celery Beat|2|
+|setup flake8|0.5|
+|setup pytest|1|
+|Research RAML|1|
+|Modify Dockerfiles|1|
+|Test custom Django models|1|
+|research django rest framework|1.5|
+
+### Second Semester
+| Task |	Description | Hours |
+|---|---|---|
+|Planning API|Planning out the future API|2|
+|Writing RAML|Writing the RAML file that Tim and I would use|3.5|
+|Google Calendar|Attempting to get Google Calendar working with our project.  We decided that this would not work and that we would have to make our calendar manually|5|
+|Creating Events Model and API Routes|Make the main model for our calendar, for a user's events|1.5|
+|Creating Activities Model and API Routes|Activities are, for example, a concert venue, that would hold multiple events|1.5|
+|Creating Categories Model and API Routes|Categories are for example, bars, that hold many different bars as activities|1.5|
+|Initial automatic event scheduler|First attempt at automatic event scheduling|6|
+|Testing API Routes|Writing tests for API routes|3|
+|Researching pytest parameterize|pytest has a feature called parameterize that allows tests to be re-ran with different inputs|2|
+|Refactoring Tests|refactor tests so that they use parameterize whenever possible|3|
+|Testing automatic event scheduler|Writing tests for the auto event scheduler|3|
+|Refactoring automatic event scheduler|Refactor the automatic event scheduler so that the code was more readable|2|
+|More functionality to the automatic event scheduler|Added more functionality to the automatic event scheduler|5|
+|Testing new automatic event scheduler|Writing tests for the auto event scheduler|3|
+|Refactoring automatic event scheduler|Refactor the automatic event scheduler so that the code was more readable after adding new functionality|2|
+|Assignment 1|Doing assignment 1|1.5|
+|Assignment 3|Doing assignment 3|1.5|
+|Assignment 4|Doing assignment 4|2|
+|Assignment 5|Doing assignment 5|4|
+|Assignment 7|Doing assignment 7|2|
+
 ### Justification of Hours
-Nick and split the work on the documentation assignments as best we could in order to give each other as much development time as possible, but one of my major time consumers was rendering mock up screens for assignments in order to provide more clarity to what we were writing. Other than that I spent a lot of time researching and developing the front end. I am not traditionally a front end developer so things took me a lot of time and I did a lot of learning in this area.
+For Fall semester, I had 47 total hours, and for Spring semester, I had 55
+hours.  In total between the two semesters, I had 102 hours.  Most of my first
+semester time was spent researching the tools we might potentially use in the
+project.  My second semester time was almost exclusively spent writing back end
+code.  When I was writing the back end code, most of my time was spent towards
+the automatic event scheduling, because that was the original reason we wanted
+to make this application.  That is why I spent so long working on it.
+
+## Tim
+
 ### Second Semester
 | Task |	Description | Hours |
 |---|---|:---|
@@ -225,3 +286,12 @@ Rough UI|	Created initial 3 screens for the application with rough layout|	15
 Rough UX|	Created controls and routing between the 3 initial screens	|10
 Research	|Researched apis and authentication|10
 Various assignments|	Class required assignments	|10
+
+### Justification of Hours
+Nick and split the work on the documentation assignments as best we could in
+order to give each other as much development time as possible, but one of my
+major time consumers was rendering mock up screens for assignments in order to
+provide more clarity to what we were writing. Other than that I spent a lot of
+time researching and developing the front end. I am not traditionally a front
+end developer so things took me a lot of time and I did a lot of learning in
+this area.
