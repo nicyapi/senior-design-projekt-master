@@ -41,14 +41,15 @@ results from the back end.
 *See the full presentation [here](https://gitlab.com/jebidis93/senior-design-planning/-/blob/master/ASSN_3.pptx)*
 
 # Final Expo Poster
-*See the final poster [here](https://gitlab.com/jebidis93/senior-design-planning/-/blob/master/Poster_Final.pdf)*
-![alt text](https://gitlab.com/jebidis93/senior-design-planning/-/blob/master/final_poster_image.png)
+*See the final poster file [here](https://gitlab.com/jebidis93/senior-design-planning/-/blob/master/Poster_Final.pdf)*
+![Poster](final_poster_image.png)
 
 
 # Assessments
 
 ## Fall Self-Assessments
 ### Nick
+
 ### Tim
 For our senior design project, we are making a self-scheduling calendar. This
 calendar will also include a social media aspect that allows users to easily
@@ -93,6 +94,26 @@ great.
 
 ## Spring Self-Assessments
 ### Nick
+For my individual contribution, I wrote the back end to our assignment.  I made
+a Django server running in a Docker container with the idea that it would make
+deploying to the cloud easier.  I was able to learn more about Django, Django
+Rest Framework, and Docker, which were my biggest goals with this project.  I
+have worked with all three at Co-op, but was never able until now to do the
+actual set up for these things, so in that sense, I have accomplished my goal.
+
+By far, my biggest success was with the automatic event scheduling.  Our project
+is based around planning events in a calendar, and one of the features of our
+project is that users are able to add things they need to do, and have our
+backend plan these out for them where their schedule permits.  Many hours went
+into the algorithm between writing, refactoring, and testing.  The algorithm is
+not to the point where I wish it were, but I happy with the point it is
+currently at.  I believe that our biggest obstacle was our own ambition.  We had
+much grander plans for our project as a whole, but were not able to complete
+many of them.  The biggest problem was because there are only two of us in the
+group, and we have other commitments.  If I did not have other classes, for
+example, and were able to work on the project as if I were at work, I would be
+able to get the majority of the planned backend finished on my own.
+
 ### Tim
 My primary development responsibilities for this project was to develop the
 front end of a phone application. Other than that Nick and I split the work when
